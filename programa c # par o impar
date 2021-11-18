@@ -1,0 +1,19 @@
+int main () 
+
+ { 
+
+int i; 
+
+printf(" Teclee el número entero i= "); 
+scanf("%d", &i); 
+
+if (i==0) 
+printf(" Ingrese un numero diferente a 0");
+    else if (i%2 ==0)
+    printf(" Es numero par");
+        else 
+        printf("Es numero impar"); 
+return 0; 
+
+
+}
